@@ -4,4 +4,5 @@ TrieNode::TrieNode() {
             children[i] = 0;
         }
         is_end_of_word = false;
+        routerNumber = -1;
 };
